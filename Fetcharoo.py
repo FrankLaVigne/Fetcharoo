@@ -3,6 +3,7 @@ import os
 from pytube import YouTube
 from youtube_transcript_api import YouTubeTranscriptApi
 
+
 def download_mp3(youtube_url, output_directory="./", filename=None):
     try:
         yt = YouTube(youtube_url)
